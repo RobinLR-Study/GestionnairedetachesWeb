@@ -13,7 +13,7 @@ if(isset($_GET['id']) && isset($_POST['TaskName']) && isset($_POST['Description'
 	$status = $_POST['status'];
 	$date = $_POST['TaskDate'];
 	//Connexion à la base de données
-	$connect = mysqli_connect("localhost", "lovinrob", "JuinCerber", "taskmanager");
+	$connect = mysqli_connect("localhost", "nom", "motdepasse", "basededonnées");
 	//Déclaration de la requête de modification de la colonne
 	$editquery = "UPDATE tasks SET TaskName = '$taskname', 
 	TaskDescription = '$description', 

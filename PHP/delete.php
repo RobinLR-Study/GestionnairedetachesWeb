@@ -8,7 +8,7 @@ if(isset($_GET['id'])) {
 	//Récupération de l'ID dans une variable
 	$id = $_GET['id'];
 	//connexion à la base de données
-	$connect = mysqli_connect("localhost", "lovinrob", "JuinCerber", "taskmanager");
+	$connect = mysqli_connect("localhost", "nom", "motdepasse", "basededonnées");
 	//Décclaration de la requête de suppression de la tâche en fonction de l'ID de la tâche
 	$deletequery = "DELETE FROM tasks WHERE TaskID = $id;";
 	//Envoie de la requête

@@ -38,7 +38,7 @@
 			echo "<div class='resultmessage'><p>Vous ne pouvez pas mettre d'espace dans votre nom d'utilisateur</p></div>";
 		} else {
 			//Connexion à la base de données
-			$connect = mysqli_connect("localhost", "lovinrob", "JuinCerber", "taskmanager");	
+			$connect = mysqli_connect("localhost", "nom", "motdepasse", "basededonnées");	
 			//Requête d'ajout d'une colonne dans la table users
 			$signup = "INSERT INTO users (username, pswd) VALUES ('$username','$password')";
 			//Requête de vérification de colonne déjà existante

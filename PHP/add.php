@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 //Vérification si le formulaire a bien été complété
 if(isset($_POST['TaskName']) && isset($_POST['Description']) && isset($_POST['status']) && isset($_POST['TaskDate'])) {
 	//Connexion à la base de données
-	$connect = mysqli_connect("localhost", "lovinrob", "JuinCerber", "taskmanager");
+	$connect = mysqli_connect("localhost", "nom", "motdepasse", "basededonnées");
 	//Récuếration du nom d'utilisateur à partir du cookie généré lors de la connexion
 	$username = $_COOKIE["usernamecookie"];
 	//Création de la requête permettant d'obtenir l'ID de l'utilisateur

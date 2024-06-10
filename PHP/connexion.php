@@ -37,7 +37,7 @@ if ((!empty($_POST['nom'])) && !empty($_POST['password'])) {
         echo "<div class='resultmessage'><p>Vous ne pouvez pas mettre d'espace dans votre nom d'utilisateur</p></div>";
     } else {
 		//Connexion à la base de données
-        $connect = mysqli_connect("localhost", "lovinrob", "JuinCerber", "taskmanager");
+        $connect = mysqli_connect("localhost", "nom", "motdepasse", "basededonnées");
         //Requête de recherche d'une colonne dans la table users en fonction du nom d'utilisateur et du mot de passe
         $usercheck = "SELECT username, pswd FROM users WHERE username='$username' AND pswd='$password'";
         //Envoie de la requête et stockage du résultat

@@ -12,7 +12,7 @@
         //Récupération de l'ID de la tâche à modifier
         $id = $_GET['id'];
         //Connection à la base de données
-        $connect = mysqli_connect("localhost", "lovinrob", "JuinCerber", "taskmanager");
+        $connect = mysqli_connect("localhost", "nom", "motdepasse", "basededonnées");
         //Création de la requête de la colonnes à afficher en fonction de TaskID
         $taskquery = "SELECT TaskName, TaskDescription, TaskDate, TaskStatus FROM tasks WHERE TaskID='$id';";
         //Envoie de la requête à la table tasks

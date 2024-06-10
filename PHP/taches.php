@@ -41,7 +41,7 @@
 			<div class="task"><h2>Vos tâches:</h2></div>
 			<?php
 				//Connection à la base de données
-				$connect = mysqli_connect("localhost", "lovinrob", "JuinCerber", "taskmanager");
+				$connect = mysqli_connect("localhost", "nom", "motdepasse", "basededonnées");
 				//Déclaration de la requête de récupération de l'ID de l'utilisateur
 				$useridquery = "SELECT userid FROM users WHERE username='$username';";
 				//Envoie de la requête
