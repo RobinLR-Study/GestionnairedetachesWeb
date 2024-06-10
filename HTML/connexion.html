@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Connexion</title>
+		<link rel="stylesheet" href="../CSS/connexion.css"/>
+	</head>
+
+	<body>
+    <div>
+		<h1>Bonjour !</h1>
+		<h2>Connectez-vous:</h2>
+		<form method="post" action="../PHP/connexion.php">
+			<p>Nom d'utilisateur: <input type='text' name="nom"/></p>
+			<p>Mot de Passe: <input type='text' name="password"/></p>
+			<input class='login' type='submit' value="Connexion"/>
+			<input class='reset' type='reset' value="Réinitialiser les champs"/>
+		</form>
+		<div class="signup">
+			<p>Vous n'avez pas encore de compte ? <a href ='inscription.html'>Inscrivez vous !</a></p>
+		</div>
+    </div>
+	</body>
+</html>

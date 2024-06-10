@@ -1,0 +1,60 @@
+body {
+	background-image: url("../IMG/background.jpg");
+	background-repeat: repeat-y;
+    background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+	text-align: center;
+}
+form {
+  text-align: center;
+}
+div {
+	margin: auto
+	-ms-transform: translateY(-50%);
+	transform: translateY(75%);
+}
+div.signup {
+	text-align: right;
+	margin-right: 250px;
+	
+}
+div.resultmessage {
+	text-align: center;
+	margin-left: 350px;
+	margin-right: 350px;
+	position: relative;
+	top: 170px;
+	background-color: lightblue;
+	border-style: solid;
+	border-color: lightblue lightblue #2a7189 lightblue;
+	border-width: 1px 1px 10px 1px;
+}
+a {
+	background-color: #4d4dff;
+	text-decoration: none;
+	color: white;
+	padding: 3px 5px;
+}
+input.login {
+	background-color: #4d4dff;
+	text-decoration: none;
+	color: white;
+	padding: 3px 5px;
+	font-size: 20px;
+}
+
+input.reset {
+	background-color: #000000;
+	text-decoration: none;
+	color: white;
+	padding: 3px 5px;
+	font-size: 20px;
+}
+

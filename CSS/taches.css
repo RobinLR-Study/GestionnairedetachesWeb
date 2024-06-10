@@ -1,0 +1,57 @@
+body {
+	background-image: url("../IMG/background.jpg");
+	background-repeat: repeat-y;
+    background-size: cover;
+}
+div.lign {
+	background-color: lightblue;
+	border: auto;
+}
+table {
+	margin-left: 100px;
+	border: 2px solid black;
+}
+td {
+	border: 2px solid black;
+	background-color: #EFEFEF;
+}
+th {
+	border: 2px solid black;
+	background-color: #bfbfbf;
+}
+a.disconnect {
+	background-color: #000000;
+	text-decoration: none;
+	color: white;
+	padding: 3px 5px;
+}
+
+a {
+	background-color: #4d4dff;
+	text-decoration: none;
+	color: white;
+	padding: 3px 5px;
+}
+a.cancel {
+	background-color: #000000;
+	text-decoration: none;
+	color: white;
+}
+
+a.delete {
+	background-color: #e60000;
+	text-decoration: none;
+	color: white;
+}
+
+input.submit {
+	background-color: #009933;
+	text-decoration: none;
+	color: white;
+	padding: 3px 5px;
+	font-size: 20px;
+}
+select {
+	padding: 3px 5px;
+	font-size: 15px;
+}
